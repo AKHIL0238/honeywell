@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm --filter @workspace/cert-verify run build",
+  "outputDirectory": "artifacts/cert-verify/dist/public",
+  "installCommand": "pnpm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
