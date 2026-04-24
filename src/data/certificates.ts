@@ -10,6 +10,8 @@ export const certificates: CertRecord[] = [
   { id: "5763760", name: "B Abhiram", issuedOn: "Apr 15, 2026" },
   { id: "5763761", name: "N Pujith",  issuedOn: "Apr 15, 2026" },
   { id: "5763762", name: "M Kumar",   issuedOn: "Apr 15, 2026" },
+  { id:"5763763", name:"M Rajender", issuedOn:"Apr 15, 2026" },
+  { id:"5763764", name:"T Amarnath", issuedOn:"Apr 15, 2026" }
 ];
 
 export function getCertById(id: string): CertRecord | undefined {
